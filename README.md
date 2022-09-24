@@ -1,4 +1,4 @@
-# PowerTunes
+# PwshTunes
 
 This is a quick hack to allow me to play garbage tunes in PowerShell scripts by providing a MIDI-esque file for a monophonic tune using an adaptation of 
 https://www.undocumented-features.com/2020/10/23/announcing-the-end-of-a-script-with-a-powershell-music/ (cheers Aaron!)  
@@ -13,6 +13,6 @@ Another quirk of `[Console]::Beep()` is that it cuts sine waves in half so you g
 ## Use
 Download this repo, cd into the directory and import the PowerShell Module to get started.
 ```pwsh
-Import-Module .\Modules\PowerTunes.psm1
+Import-Module .\Modules\PwshTunes.psm1
 Invoke-Tune -Path .\Examples\PocketMon.pstune
 ```

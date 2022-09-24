@@ -1,3 +1,3 @@
-Import-Module "$PSScriptRoot/../Modules/PowerTunes.psm1" -Force
+Import-Module "$PSScriptRoot/../Modules/PwshTunes.psm1" -Force
 
 Invoke-Tune -Path "$PSScriptRoot/PocketMon.pstune" -Verbose
